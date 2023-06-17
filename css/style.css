@@ -213,6 +213,123 @@ body {
 .card.map-card .button .btn-floating {
   margin-top: -1.5rem;
 }
+body {
+	background-color: #f5f7fa;
+}
+
+.md-calendar {
+  background-color: #69004b;
+}
+
+.md-calendar .weekdays,
+.md-calendar .days {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.md-calendar .weekdays li,
+.md-calendar .days li {
+  text-align: center;
+  width: 13.6%;
+  padding: 0.9rem 0;
+}
+
+.md-calendar .days li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.md-calendar .days li.active {
+  background-color: #fb0025;
+}
+
+.md-calendar .days li.active.rounded-right {
+  -webkit-border-top-right-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  -webkit-border-bottom-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.md-calendar .days li.active.rounded-left {
+  -webkit-border-top-left-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  -webkit-border-bottom-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.md-calendar .form-check,
+.card-form .form-check {
+  margin-left: .32rem;
+}
+
+.red-checkbox .form-check-input[type=checkbox]:checked {
+  background-color: #fb0025;
+}
+
+.red-checkbox .form-check-input:checked {
+  border-color: #fb0025;
+}
+
+.red-checkbox .form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #fb0025;
+}
+
+.purple-checkbox .form-check-input[type=checkbox]:checked {
+  background-color: #69004b;
+}
+
+.purple-checkbox .form-check-input:checked {
+  border-color: #69004b;
+}
+
+.purple-checkbox .form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #69004b;
+}
+
+.blue-checkbox .form-check-input[type=checkbox]:checked {
+  background-color: #0d47a1;
+}
+
+.blue-checkbox .form-check-input:checked {
+  border-color: #0d47a1;
+}
+
+.blue-checkbox .form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #0d47a1;
+}
+
+.teal-checkbox .form-check-input[type=checkbox]:checked {
+  background-color: #00695c;
+}
+
+.teal-checkbox .form-check-input:checked {
+  border-color: #00695c;
+}
+
+.teal-checkbox .form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #00695c;
+}
+
+.unique-checkbox .form-check-input[type=checkbox]:checked {
+  background-color: #3f729b;
+}
+
+.unique-checkbox .form-check-input:checked {
+  border-color: #3f729b;
+}
+
+.unique-checkbox .form-check-input:checked:focus:before {
+  box-shadow: 0 0 0 13px #3f729b;
+}
 
 
 
