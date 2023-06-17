@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif​ !important;
+}
+@media (max-width: 991) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.logo-switch-language {
+  width: 33px;
+}
+.nav_icon {
+  font-size: 25px;
+}
+.nav_btn_contact:hover {
+  background-color: #0f2f52;
+}
+.nav_ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.dropdown-item:hover {
+  background-color: #c60a2e;
+  color: #ffff;
+}
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: px;
+  left: 0;
+  padding: 1.25rem;
+  border-radius: calc(0.25rem - 1px);
+  color: #fff;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.prointix-service .card .card-img-overlay {
+  transition: 0.3s;
+}
+
+.overlay-dark-orange {
+  background-color: rgba(101, 85, 27, 0.5);
+  border-radius: 10px;
+}
+.overlay-cover {
+  background-color: rgba(101, 85, 27, 0.5);
+  height: 512px;
+}
+.overlay-software {
+  background-color: rgba(56, 83, 124, 0.5);
+  border-radius: 10px;
+}
+.overlay-moblie {
+  background-color: rgba(101, 85, 27, 0.5);
+  border-radius: 10px;
+}
+.overlay-desgin {
+  background-color: rgba(72, 49, 165, 0.5);
+  border-radius: 10px;
+}
+.overlay-website {
+  background-color: rgba(123, 99, 99, 0.5);
+}
+.prointix-service .card:hover .overlay-desgin {
+  background-color: rgba(103, 92, 149, 0.5);
+  cursor: pointer;
+}
+.prointix-service .card:hover .overlay-website {
+  background-color: rgba(101, 85, 27, 0.20);
+  cursor: pointer;
+}
+.prointix-service .card:hover .overlay-moblie {
+  background-color: rgba(135, 127, 95, 0.5);
+  cursor: pointer;
+}
+.prointix-service .card:hover .overlay-software {
+  background-color: rgba(87, 100, 118, 0.5);
+  cursor: pointer;
+}
+.mb-h2{
+  margin-bottom: 13rem;
+  text-align: center;
+}
+.text-muted-member{
+  color: #32435C;
+  
+}
+.span-text-member{
+  color: #969696;
+}
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+.cart-image{
+  position: absolute;
+  border-radius: 7px;
+}
+.how_content{
+  padding-top: 140px;
+}
+.btn-viwe-detail{  
+  color: #fff;
+  border: 1px solid #ffff;
+}
+
+
+
